@@ -6,7 +6,7 @@ import { router } from './routes'
 
 const app = express()
 
-app.use(express.json()) //pra pegar o body
+app.use(express.json()) //pra pegar o body em json
 
 app.use(router)
 
