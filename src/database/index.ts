@@ -1,3 +1,4 @@
 import { createConnection } from 'typeorm'
 
-const connection = createConnection();
+const connection = createConnection()
+

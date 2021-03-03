@@ -20,11 +20,11 @@ export class CreateUsers1614627597220 implements MigrationInterface {
                         name: "email",
                         type: "varchar",
                     },
-                    {
-                        name: "created_at",
-                        type: "timestamp",
-                        default: "now()"
-                    },
+                    // {
+                    //     name: "created_at",
+                    //     type: "timestamp",
+                    //     default: "now()"
+                    // },
 
                 ]
             }
